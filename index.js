@@ -18,9 +18,9 @@ function deepestChild() {
   const divs = document.getElementById('grand-node').querySelectorAll('div');
 
   for (let i = 0; i < divs.length; i++) {
-    debugger;
+
     if (divs[i].hasChildNodes() === false) {
-      return div[i];
+      return divs[i];
     }
     
   }
