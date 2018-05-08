@@ -18,9 +18,11 @@ function deepestChild() {
   const divs = document.getElementById('grand-node').querySelectorAll('div');
   var output = '';
   
-  for (let i = 0; i < divs.length; i++) {
-    output = divs[i];
-  }
+  while 
+  
+  // for (let i = 0; i < divs.length; i++) {
+  //   output = divs[i];
+  // }
   
   return output;
 }
