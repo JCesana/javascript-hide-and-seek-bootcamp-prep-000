@@ -16,11 +16,12 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   const divs = document.getElementById('grand-node').querySelectorAll('div');
-  var output = '';
-  
+
   for (let i = 0; i < divs.length; i++) {
-    output = divs[i];
+
+    if (divs[i].children.length === 0) {
+      return divs[i];
+    }
+    
   }
-  
-  return output;
 }
