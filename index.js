@@ -19,7 +19,7 @@ function deepestChild() {
 
   for (let i = 0; i < divs.length; i++) {
     
-    if (div[i].hasChildNodes()) {
+    if (div[i].hasChildNodes() === false) {
       return div[i];
     }
     
